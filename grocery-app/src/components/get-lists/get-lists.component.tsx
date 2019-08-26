@@ -37,7 +37,7 @@ export default class GroceryListComponent extends Component<{}, IState> {
                     <thead>
                         <tr>
                             <th scope="col">Name</th>
-                            <th scope="col"></th>
+                            <th scope="col">View</th>
                         </tr>
                     </thead>
                     <tbody>
