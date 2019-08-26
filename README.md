@@ -13,8 +13,12 @@ Make 2 tables in your db, one for grocery list information, and one for grocery 
 * have a foreign key in grocery items that points to the primary key for grocery list
 * grocery items need a type, such as food, electronics, clothing, etc. This can be done with the type directly in the grocery item or you can create a relation to a seperate table for tracking different types
 * Add some dummy data
+* FINISHED!
+------------------------------------------------------------------------------------------
 ## Part 2 Implement your Model *In Spring*: 10 Points
 Create a GroceryList and GroceryItem JAVABEAN that is mapped to your db tables
+* do you mean the models? done
+-----------------------------------------------------------------------------------------
 ## Part 3 Implement your API: 20 Points
 Make/implement 
 * GET /grocery-lists  to find all grocery lists  

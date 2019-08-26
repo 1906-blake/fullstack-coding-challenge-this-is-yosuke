@@ -1,0 +1,14 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      java: openjdk8
+    commands:
+      - cd fullstack-coding-challenge-this-is-yosuke/grocery-api
+  build:
+    commands:
+      - mvn clean package
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'fullstack-coding-challenge-this-is-yosuke/grocery-api'
