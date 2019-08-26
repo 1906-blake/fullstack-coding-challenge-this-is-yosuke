@@ -17,9 +17,4 @@ public class GroceryListService {
 	public List<GroceryList> findAll() {
 		return glr.findAll();
 	}
-
-
-//	public List<Brand> findByIceCreamToppingsName(String toppingName) {
-//		return br.findByIceCreamToppingsName(toppingName);
-//	}
 }
