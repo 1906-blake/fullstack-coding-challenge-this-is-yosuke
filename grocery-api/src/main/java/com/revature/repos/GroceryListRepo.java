@@ -9,6 +9,7 @@ import com.revature.models.GroceryList;
 
 public interface GroceryListRepo extends JpaRepository<GroceryList, Integer> {
 	GroceryList findByName(String name);
-//	
-//	List<GroceryList> findByRoleOrderByUsername(String role);
+	
+	
+
 }
